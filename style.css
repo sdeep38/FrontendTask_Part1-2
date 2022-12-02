@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+    background: #2F2F2F;
+
+}
+
+.header-sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.logo a img {
+    /* width: 86%; */
+    height: 40px;
+}
+
+.navbar .logo {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo .text {
+    margin-bottom: 0;
+    margin-left: 12px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+
+.top-right .nav .nav-item .nav-link {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navbar .top-right {
+    padding: 0.5rem;
+    width: 50%;
+}
+
+a.nav-link:hover {
+    color: #f6a800 !important;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+#menuCarousel .carousel-item{
+    width: 30%;
+    margin: 0 6px;
+}
+section{
+    margin: 20px 0;
+    padding: 120px 0 60px 0;
+}
+
+#about .section-img-right {
+    margin-left: 30px;
+}
+
+#about img {
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+    transition: 0.5s all ease-in-out;
+
+}
+
+#about .section-img-right .thumbnail {
+    height: 350px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.thumbnail:hover img {
+    transform: scale(1.2);
+}
+
+#about .heading h2 {
+    padding-right: 140px;
+}
+
+#about .section-text-left .bottom-img{
+    padding-bottom: 10px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #202738;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.heading h6 {
+    color: #f68000;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heading h6::before {
+    width: 30px;
+    height: 3px;
+    content: '';
+    position: absolute;
+    top: 24px;
+    background: #f68000;
+}
+
+#about .section-text-left p {
+    margin-bottom: 25px;
+}
+
+
+
+a.active {
+    color: #f6a800;
+}
+
+#chefs .chef-card .profile-img img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+#chefs .chef-card {
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #bbb;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 25px;
+
+}
+
+#chefs .chef-card .profile-info {
+    padding: 1rem 0;
+}
+
+
+#chefs .chef-card .profile-info .name {
+    margin-bottom: 6px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+#chefs .chef-card .profile-info .spec {
+    background: rgb(255, 245, 231);
+    border-radius: 30px;
+    padding: 2px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f68000;
+}
+
+footer {
+    margin: 60px 0 0 0;
+    padding: 40px 0 20px 0;
+    background-color: #002d50;
+}
+
+
+footer .center-content {
+    text-align: center;
+}
+
+footer .center-content h6 {
+    font-size: 14px;
+    color: #eee;
+    font-weight: 400;
+}
+
+footer .left-content,
+footer .center-content,
+footer .right-content {
+    margin-top: 10px;
+}
+
+
+footer .right-content .social-media,
+ul {
+    list-style: none;
+}
+
+footer .right-content {
+    text-align: right;
+}
+
+footer .right-content ul li {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+footer .right-content ul li:first-child {
+    margin-left: 0;
+}
+
+footer .right-content ul li a {
+    font-size: 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 40px;
+    width: 44px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #2a2a2a;
+    transition: all 0.4s ease 0s;
+}
+
+footer .right-content ul li a:hover {
+    color: #d16e05;
+}
+
+footer .right-content h6 {
+    color: #fff;
+    margin-bottom: 10px;
+    padding-left: 2rem;
+    font-size: 18px;
+
+}
+
+#about .section-text-left img {
+    height: 140px;
+    border-radius: 2px;
+}
+
+#scroll-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #999;
+    font-size: 18px;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 100;
+    transition: all .4s ease;
+}
+
+a#scroll-top:hover {
+    background: #444;
+    cursor: pointer;
+}
+
+footer .bottom-content {
+    margin-top: 10px;
+    color: #eee;
+    font-size: 12px;
+}
+
+footer .bottom-content .dummy-links {
+    display: flex;
+    float: right;
+    margin-bottom: 0;
+}
+
+footer .bottom-content ul li {
+    padding: 0 10px;
+    border-right: 1px solid #eee;
+}
+
+footer .bottom-content ul li:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+footer .bottom-content ul li a {
+    color: #eee;
+
+}
+
+footer .bottom-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.build_0 {
+    border: 1px solid red !important;
+}
+
+a.more {
+    padding: 0.75rem;
+    color: #ed820f;
+    font-size: 18px;
+    border: 2px solid #ed820f;
+    transition: all .4s ease;
+}
+
+a.more:hover{
+    background-color: #ed820f;
+    color: #fff;
+}
+
+#menu {
+    background: #fdf3fe87;
+}
+
+.carousel .carousel-item{
+    height: 600px;
+}
+
+#menuCarousel .menu-item-card{
+    border: 1px solid red;
+}
+
+#special .heading-tabs{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.wkspecial_wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wkspecial_wrapper .wkspecial a{
+    border: 1px solid #fbdeb9;
+    padding: 2px 40px;
+    color: #f68000;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+.wkspecial_wrapper .wkspecial a span{
+    font-size: 18px;
+}
+
+.wkspecial_wrapper .wkspecial a:hover{
+    color: #d03704 !important;
+    background: #fbefdf;
+}
+
+#special .heading-tabs ul li{
+    margin: 0 15px;
+    min-width: 150px;
+}
+
+#special .heading-tabs ul li:first-child{
+    margin-left: 0;
+}
+
+#special .heading-tabs ul li a{
+    text-transform: capitalize;
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+    color: #fb5849 !important;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+#special .heading-tabs ul li a.active{
+    background-color: #f98e1d;
+    color: #fff !important;
+}
+
+#special .heading-tabs ul li a:hover{
+    color: #fb5849;
+}
+
+#special .tab-content{
+    margin-top: 1rem;
+}
+
+#special .tab-content .left-list{
+    margin-right: 15px;
+}
+
+#special .tab-content .tab-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+#special .tab-content .tab-item .image{
+    margin-right: 15px;
+}
+
+#special .tab-content .tab-item .image img{
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+}
+
+#special .tab-content .tab-item .content{
+    padding: 0 10px;
+}
+
+#special .tab-content .tab-item .content h5{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+#special .tab-content p{
+    color: #999;
+}
+
+#special .tab-content .price{
+    border: 1px solid red;
+    padding: 6px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fb5849;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#special .heading, #chefs .heading{
+    margin-bottom: 70px;
+}
+
+#menuCarousel .menu-item-card{
+    border: 1px solid #000;
+    width: 100%;
+}
+
+#menuCarousel .menu-item-card img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#reservation{
+    margin-top: 120px;
+    padding: 120px 0;
+    background-image: url('images/coverimg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#reservation .heading{
+    margin-bottom: 30px;
+}
+
+#reservation .heading h6{
+    color: #fff;
+}
+
+#reservation .heading h6::before{
+    background-color: #fff !important;
+}
+
+#reservation .heading h2{
+    color: #fff;
+    font-weight: 700;
+}
+
+#reservation p{
+    color: #fff;
+    margin-bottom: 65px;
+}
+
+#reservation .phone, #reservation .email{
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+#reservation .phone i, #reservation .email i{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    background-color: #fb5849;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: -35px;
+}
+
+#reservation .phone h3, #reservation .email h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#reservation .phone span a, #reservation .email span a{
+    font-size: 14px;
+    color: #2a2a2a;
+    transition: all .3s;
+}
+
+#reservation .phone span a:hover, #reservation .email span a:hover{
+    color: #d03704;
+}
+
+#contact{
+    margin-left: 30px;
+    padding: 45px 30px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+#contact h4{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #2a2a2a;
+    font-size: 30px;
+}
+
+.contact-form input, .contact-form textarea, .contact-form select{
+    color: #2a2a2a;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 3px 20px 0px 20px;
+    margin-bottom: 15px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus{
+    border: 1px solid #d03704;
+    outline: none;
+
+}
+
+.contact-form button{
+    color: #fff;
+    background-color: #fb5849;
+    width: 100%;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all .3s;
+    border: none;
+    font-size: 16px;
+}
+
+.contact-form button:hover{
+    background-color: #fb5849cb;
+}
+
+.contact-form textarea{
+    height: 150px;
+    padding: 20px;
+}
