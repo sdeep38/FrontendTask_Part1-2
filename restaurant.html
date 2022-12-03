@@ -66,6 +66,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Image Carousel -->
         <div class="header">
             <div class="container-fluid">
                 <div class="row">
@@ -101,6 +103,7 @@
         </div>
     </div>
 
+    <!-- Week Special Button -->
     <div class="wkspecial_wrapper">
         <div class="container">
             <div class="row">
@@ -647,7 +650,7 @@
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="center-content">
-                        <h6>©️ Copyright 2022 Citi Cafe Co. All rights reserved</h6>
+                        <h6>2022 Citi Cafe Co.</h6>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
@@ -701,35 +704,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <script>
-
-        //Getting the button
-        let Topbtn = document.getElementById('scroll-top');
-
-        window.onscroll = function () { scrollFunc() };
-
-        function scrollFunc() {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                Topbtn.style.display = 'block';
-            } else {
-                Topbtn.style.display = 'none';
-            }
-        }
-        function gotoTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        window.addEventListener('scroll', setSticky);
-
-        var header = document.getElementById('myHeader');
-        var sticky = header.offsetTop;
-
-        function setSticky() {
-            if(window.pageYOffset >= sticky){header.classList.add("header-sticky");}
-            else{header.classList.remove("header-sticky");}
-        }
-    </script>
+    <script src="index.js"></script>
 
 </body>
 
